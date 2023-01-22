@@ -12,7 +12,6 @@ class SingleForm:
         self.plusBtn.clicked.connect(self.addItemToList)
         self.deleteBtn.clicked.connect(self.removeItemFromList)
 
-    
     def updateInputValue(self, value):
         try:
             int(value)
