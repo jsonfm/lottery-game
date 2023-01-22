@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import QLineEdit, QPushButton, QListWidget
 
 
 class SingleForm:
+    """A common form for the GUI."""
     def __init__(self, input: QLineEdit, plusBtn: QPushButton, deleteBtn: QPushButton, qlist: QListWidget):
         self.input = input
         self.plusBtn = plusBtn

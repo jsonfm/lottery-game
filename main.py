@@ -40,9 +40,6 @@ class Lottery(QMainWindow):
         self.combinationLabel.setText(f"Combinations: {number}")
 
 
-        
-
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     w = Lottery()

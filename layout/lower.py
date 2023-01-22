@@ -5,6 +5,7 @@ from layout.forms.middle import ColumnRangesForm
 
 
 class Lower:
+    """Lower Row"""
     def __init__(self, parent: QMainWindow):
         for attr, value in parent.__dict__.items():
             setattr(self, attr, value)
@@ -62,6 +63,7 @@ class Lower:
 
 
 class FinalLower:
+    """"Final Lower Row"""
     def __init__(self, parent: QMainWindow):
         for attr, value in parent.__dict__.items():
             setattr(self, attr, value)
